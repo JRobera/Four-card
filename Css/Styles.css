@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: hsl(0, 0%, 98%);
+}
+img {
+    float: right;
+    padding-top: 35px;
+    padding-right: 20px;
+}
+.Mainc {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 570px;
+    background: white;
+}
+.firstH{
+    text-align: center;
+    width: 100%;
+    font-weight: 200;
+    font-size: 35px;
+    padding-top: 50px;
+    color:rgb(159, 163, 168);
+}
+.secondH {
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+.Par { 
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 32%;
+    color:rgb(159, 163, 168);
+    width: 35%;
+} 
+.cardes{
+    width: 300px;
+    height: 200px;
+    margin: 20px 15px;
+    padding: 20px 5px 0 25px;
+    position: absolute;
+    border-radius: 8Px;
+    background: white;
+    box-shadow: 0px 5px 15px hsl(229, 6%, 66%);
+}
+.Mainc .cardes h4{
+    padding-bottom: 5px;
+
+}
+.Mainc .cardes p{
+    line-height: 1.5;
+    font-size: 15px;
+    color:rgb(159, 163, 168);
+
+}
+.Supervisor {
+    top: 355px;
+    left: 240px;
+    border-top: 3px solid hsl(180, 62%, 55%);
+}
+.Team {
+    top: 230px;
+    left: 600px;
+    border-top: 3px solid hsl(0,78%, 62%);
+}
+.Karma {
+    top: 480px;
+    left: 600px;
+    border-top: 3px solid orange;
+}
+.Calculator {
+    top: 355px;
+    left: 960px;
+    border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+
+
+@media (max-width: 400px){
+    
+    .Mainc {
+        padding-bottom: 270px;
+    }
+    
+    .Topcont {
+        text-align: center;
+        margin: auto;
+        position: relative;
+        top: 100px;  
+    }
+    .firstH{
+        
+        font-weight: 200;
+        font-size: 25px;
+        padding-top: 5px;
+    }
+    .secondH {
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .Par { 
+        text-align: center;
+        padding-top: 20px;
+        margin-left: 35px;
+        color:rgb(159, 163, 168);
+        width: 80%;
+    } 
+    
+    .cardes {
+        margin: auto;
+        position: relative;
+        left: 0px;
+        
+    }
+    .Supervisor {
+        top: 160px;
+    }
+    .Team {
+        top: 180px;
+    }
+    .Karma {
+        top: 195px;
+    }
+    .Calculator {
+        top: 215px;
+    }
+    
+}
